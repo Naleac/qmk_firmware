@@ -1,0 +1,5 @@
+Files that are not stock and need to be updated in a new repo:
+C:\Users\Caelan\qmk_firmware\keyboards\handwired\tractyl_manuform\5x6_right\keymaps\testKeymap\config.h
+C:\Users\Caelan\qmk_firmware\keyboards\handwired\tractyl_manuform\5x6_right\keymaps\testKeymap\*
+Code At the bottom of 
+C:\Users\Caelan\qmk_firmware\keyboards\handwired\tractyl_manuform\tractyl_manuform.c

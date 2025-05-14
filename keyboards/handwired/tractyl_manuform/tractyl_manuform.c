@@ -376,3 +376,13 @@ void                       matrix_scan_kb(void) {
     matrix_scan_sub_kb();
     matrix_scan_user();
 }
+
+// This fixes the isssue of dragscroll not functioning quite right
+#ifdef POINTING_DEVICE_AUTO_MOUSE_ENABLE
+bool is_mouse_record_kb(uint16_t keycode, keyrecord_t* record) {
+    if (IS_KB_KEYCODE(keycode)) {
+        return true;
+    }
+    return is_mouse_record_user(keycode, record);
+}
+#endif
